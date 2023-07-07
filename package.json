@@ -4,13 +4,14 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!docs && changeset publish"
   },
-  "license": "MIT",
-  "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^6.0.2"
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0",
+    "turbo": "^1.5.5"
   }
 }
