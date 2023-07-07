@@ -1,11 +1,11 @@
-export * from './components/Box'
-export * from './components/Text'
-export * from './components/Heading'
-export * from './components/Avatar'
-export * from './components/Button'
-export * from './components/TextInput'
-export * from './components/TextArea'
-export * from './components/Checkbox'
-export * from './components/MultiStep'
+import { styled } from './styles'
 
-export * from './styles'
+const Button = styled('button', {
+  fontFamily: '$default',
+  backgroundColor: '$blue500',
+  borderRadius: '$md',
+})
+
+export function App() {
+  return <Button>Hello world</Button>
+}
