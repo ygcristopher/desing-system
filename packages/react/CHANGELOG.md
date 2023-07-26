@@ -1,4 +1,4 @@
-# @ignite-ui/react
+# @ygc-ui/react
 
 ## 1.0.1
 
