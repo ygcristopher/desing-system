@@ -1,0 +1,2 @@
+import{M as t,a as e}from"./index.43d554bd.js";import{j as o}from"./jsx-runtime.02061629.js";import"./index.a53b005a.js";import"./iframe.e40cabb5.js";import"./index.f0c10c8f.js";const m={title:"Form/Multi Step",component:t,args:{size:4,currentStep:1},decorators:[r=>o(e,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:r()})]},n={args:{}},c={args:{currentStep:4}},u=["Primary","Full"];export{c as Full,n as Primary,u as __namedExportsOrder,m as default};
+//# sourceMappingURL=MultiStep.stories.874cdb74.js.map
